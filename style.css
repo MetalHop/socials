@@ -1,0 +1,44 @@
+@font-face {
+    font-family: justafont;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    margin:0%;
+    font-family: justafont;
+    background-color: hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 100%);
+}
+
+.wrapper{
+    background-color: hsl(0, 0%, 12%);
+    margin: 3% 38%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1.5%;
+    font-size: 14px;
+}
+
+.link{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 5%;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+.link:active{
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
